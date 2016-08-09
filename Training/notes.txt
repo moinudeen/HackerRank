@@ -1,0 +1,31 @@
+fermats little theorem
+
+if no==2 it is Prime
+else if (pow(2,p-1) mod p==1) it is Prime
+else not a prime
+-----------------------
+square root
+no=49.
+49-1=48
+48-3=45
+45-5=40
+.
+.
+13-13=0
+
+7 steps , therefore ans is 7
+---------------------------
+8 5
+n m-rook pos
+1 2
+2 4
+3 5
+4 7
+5 1
+----------------------------------
+Linked list
+
+struct Node{
+  int data;
+  struct Node *next;
+}

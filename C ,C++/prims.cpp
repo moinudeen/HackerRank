@@ -20,7 +20,7 @@ int main(){
   //while(t--){
     cin>>n>>m;
     vector< vector<int> > a ( n+1, std::vector<int> (n+1,-1) );
-
+    
     for(int i=1;i<=m;i++){
       cin>>x>>y>>r;
       if(a[x][y]==-1){
